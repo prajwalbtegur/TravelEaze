@@ -1,0 +1,23 @@
+{
+  "name": "traveleaze",
+  "version": "1.0.0",
+  "description": "TravelEaze is a Travel Agency Management System developed using HTML,CSS,JS,Node JS and MySQL",
+  "main": "app.JS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "Prajwal B Tegur",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.9.4",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  }
+}
